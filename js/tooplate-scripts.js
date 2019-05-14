@@ -152,15 +152,15 @@ function drawPieChart() {
       data: {
         datasets: [
           {
-            data: [1.24, 6.5, 9.15],
-            backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582"],
+            data: [1446, 1090],
+            backgroundColor: ["#F7604D", "#4ED6B8"],
             label: "Storage"
           }
         ],
         labels: [
-          "Used Storage (1.240GB)",
-          "System Storage (6.500GB)",
-          "Available Storage (9.150GB)"
+          "结构预测 (1446项)",
+          "多域组装 (1090项)",
+          // "结构 (9.150GB)"
         ]
       },
       options: optionsPie
