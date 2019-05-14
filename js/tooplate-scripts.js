@@ -81,7 +81,7 @@ function drawBarChart() {
             },
             scaleLabel: {
               display: true,
-              labelString: "Hits"
+              //labelString: "Hits"
             }
           }
         ]
@@ -105,11 +105,11 @@ function drawBarChart() {
     configBar = {
       type: "horizontalBar",
       data: {
-        labels: ["Red", "Aqua", "Green", "Yellow", "Purple", "Orange", "Blue"],
+        labels: ["中国", "美国", "英国", "日本", "加拿大", "韩国","印度"],
         datasets: [
           {
-            label: "# of Hits",
-            data: [33, 40, 28, 49, 58, 38, 44],
+            label: "提交量",
+            data: [1229, 431, 177, 228, 117, 202, 152],
             backgroundColor: [
               "#F7604D",
               "#4ED6B8",
