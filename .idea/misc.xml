@@ -3,6 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+<<<<<<< Updated upstream
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -35,4 +36,6 @@
       </profile-state>
     </entry>
   </component>
+=======
+>>>>>>> Stashed changes
 </project>
