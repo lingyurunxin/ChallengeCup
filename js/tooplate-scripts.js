@@ -9,7 +9,7 @@ function drawLineChart() {
           {
             scaleLabel: {
               display: true,
-              labelString: "Hits"
+              labelString: "访问量"
             }
           }
         ]
@@ -24,39 +24,32 @@ function drawLineChart() {
       type: "line",
       data: {
         labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July"
+          "周一",
+          "周二",
+          "周三",
+          "周四",
+          "周五",
+          "周六",
+          "周日"
         ],
         datasets: [
           {
-            label: "Latest Hits",
-            data: [88, 68, 79, 57, 50, 55, 70],
+            label: "每天用户注册",
+            data: [10, 15, 3, 30, 16, 17,5],
             fill: false,
             borderColor: "rgb(75, 192, 192)",
             cubicInterpolationMode: "monotone",
             pointRadius: 0
           },
           {
-            label: "Popular Hits",
-            data: [33, 45, 37, 21, 55, 74, 69],
+            label: "每天任务提交",
+            data: [30, 57, 36, 60, 80, 43, 30],
             fill: false,
             borderColor: "rgba(255,99,132,1)",
             cubicInterpolationMode: "monotone",
             pointRadius: 0
-          },
-          {
-            label: "Featured",
-            data: [44, 19, 38, 46, 85, 66, 79],
-            fill: false,
-            borderColor: "rgba(153, 102, 255, 1)",
-            cubicInterpolationMode: "monotone",
-            pointRadius: 0
           }
+
         ]
       },
       options: optionsLine
